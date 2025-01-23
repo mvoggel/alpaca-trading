@@ -1,0 +1,446 @@
+2024-10-23 19:45:37,859 - __main__ - INFO - Investment bot started
+2024-10-23 19:45:37,860 - __main__ - INFO - Starting data collection
+2024-10-23 19:45:40,578 - __main__ - INFO - Starting data collection process
+2024-10-23 19:45:40,583 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:41,569 - __main__ - INFO - Downloaded 204 rows for AAPL.
+2024-10-23 19:45:41,569 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:41,679 - __main__ - INFO - Downloaded 204 rows for AMZN.
+2024-10-23 19:45:41,680 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:41,883 - __main__ - INFO - Downloaded 204 rows for JNJ.
+2024-10-23 19:45:41,884 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:41,993 - __main__ - INFO - Downloaded 204 rows for VWO.
+2024-10-23 19:45:41,994 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:43,723 - yfinance - ERROR - 
+1 Failed download:
+2024-10-23 19:45:43,723 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-10-23 19:45:43,723 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2024-10-23 19:45:43,723 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:43,929 - __main__ - INFO - Downloaded 204 rows for NEE.
+2024-10-23 19:45:43,929 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2024-10-23
+2024-10-23 19:45:44,132 - __main__ - INFO - Downloaded 204 rows for VNQ.
+2024-10-23 19:45:44,158 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2024-10-23 19:45:44,158 - __main__ - INFO - Data collection process completed
+2024-10-23 19:45:44,352 - __main__ - INFO - Data collection completed
+2024-10-23 19:45:44,353 - __main__ - INFO - Starting model training
+2024-10-23 19:45:48,315 - __main__ - INFO - Starting model training process
+2024-10-23 19:45:48,868 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2024-10-23 19:45:48,869 - __main__ - INFO - Model training process completed
+2024-10-23 19:45:49,089 - __main__ - INFO - Model training completed
+2024-10-23 19:45:49,089 - __main__ - INFO - Starting prediction
+2024-10-23 19:45:50,910 - __main__ - INFO - Starting prediction process
+2024-10-23 19:45:52,691 - __main__ - INFO - No action taken for AAPL based on prediction
+2024-10-23 19:45:52,709 - __main__ - INFO - No action taken for AMZN based on prediction
+2024-10-23 19:45:52,721 - __main__ - INFO - No action taken for JNJ based on prediction
+2024-10-23 19:45:53,078 - __main__ - INFO - Bought VWO for $25 at price 47.13
+2024-10-23 19:45:53,182 - __main__ - INFO - Bought NEE for $25 at price 84.94
+2024-10-23 19:45:53,270 - __main__ - INFO - Bought VNQ for $25 at price 96.48
+2024-10-23 19:45:53,276 - __main__ - INFO - Prediction process completed
+2024-10-23 19:45:53,527 - __main__ - INFO - Prediction completed
+2024-10-23 19:45:53,527 - __main__ - INFO - Starting rebalancing
+2024-10-23 19:45:55,262 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,324 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,390 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,457 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2024-10-23 19:45:55,526 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,587 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,652 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2024-10-23 19:45:55,655 - __main__ - INFO - Portfolio rebalancing process completed
+2024-10-23 19:45:55,799 - __main__ - INFO - Rebalancing completed
+2024-10-23 19:45:55,800 - __main__ - INFO - Investment bot completed its run.
+2024-10-24 07:56:01,711 - __main__ - INFO - Investment bot started
+2024-10-24 07:56:01,712 - __main__ - INFO - Starting data collection
+2024-10-24 07:56:09,009 - __main__ - INFO - Starting data collection process
+2024-10-24 07:56:09,016 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:17,422 - __main__ - INFO - Downloaded 205 rows for AAPL.
+2024-10-24 07:56:17,423 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:17,820 - __main__ - INFO - Downloaded 205 rows for AMZN.
+2024-10-24 07:56:17,821 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:18,199 - __main__ - INFO - Downloaded 205 rows for JNJ.
+2024-10-24 07:56:18,200 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:18,354 - __main__ - INFO - Downloaded 205 rows for VWO.
+2024-10-24 07:56:18,354 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:19,579 - yfinance - ERROR - 
+1 Failed download:
+2024-10-24 07:56:19,580 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-10-24 07:56:19,581 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2024-10-24 07:56:19,582 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:19,753 - __main__ - INFO - Downloaded 205 rows for NEE.
+2024-10-24 07:56:19,754 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2024-10-24
+2024-10-24 07:56:19,893 - __main__ - INFO - Downloaded 205 rows for VNQ.
+2024-10-24 07:56:19,940 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2024-10-24 07:56:19,941 - __main__ - INFO - Data collection process completed
+2024-10-24 07:56:20,138 - __main__ - INFO - Data collection completed
+2024-10-24 07:56:20,139 - __main__ - INFO - Starting model training
+2024-10-24 07:56:33,295 - __main__ - INFO - Starting model training process
+2024-10-24 07:56:34,227 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2024-10-24 07:56:34,230 - __main__ - INFO - Model training process completed
+2024-10-24 07:56:34,551 - __main__ - INFO - Model training completed
+2024-10-24 07:56:34,552 - __main__ - INFO - Starting prediction
+2024-10-24 07:56:36,955 - __main__ - INFO - Starting prediction process
+2024-10-24 07:56:39,114 - __main__ - INFO - No action taken for AAPL based on prediction
+2024-10-24 07:56:39,133 - __main__ - INFO - No action taken for AMZN based on prediction
+2024-10-24 07:56:39,155 - __main__ - INFO - No action taken for JNJ based on prediction
+2024-10-24 07:56:39,716 - __main__ - INFO - Bought VWO for $25 at price 47.13
+2024-10-24 07:56:39,828 - __main__ - INFO - Bought NEE for $25 at price 84.94
+2024-10-24 07:56:39,921 - __main__ - INFO - Bought VNQ for $25 at price 96.48
+2024-10-24 07:56:39,931 - __main__ - INFO - Prediction process completed
+2024-10-24 07:56:40,240 - __main__ - INFO - Prediction completed
+2024-10-24 07:56:40,241 - __main__ - INFO - Starting rebalancing
+2024-10-24 07:56:42,551 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,630 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,697 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,770 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2024-10-24 07:56:42,845 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,913 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,987 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2024-10-24 07:56:42,993 - __main__ - INFO - Portfolio rebalancing process completed
+2024-10-24 07:56:43,090 - __main__ - INFO - Rebalancing completed
+2024-10-24 07:56:43,091 - __main__ - INFO - Investment bot completed its run.
+2024-10-26 08:21:35,764 - __main__ - INFO - Investment bot started
+2024-10-26 08:21:35,834 - __main__ - INFO - Starting data collection
+2024-10-26 08:21:42,134 - __main__ - INFO - Starting data collection process
+2024-10-26 08:21:42,136 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,432 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,433 - yfinance - ERROR - ['AAPL']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D3D6C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,433 - __main__ - WARNING - No data found for AAPL in the given date range.
+2024-10-26 08:25:35,434 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,448 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,449 - yfinance - ERROR - ['AMZN']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D3E980>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,450 - __main__ - WARNING - No data found for AMZN in the given date range.
+2024-10-26 08:25:35,451 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,480 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,481 - yfinance - ERROR - ['JNJ']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D3F850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,481 - __main__ - WARNING - No data found for JNJ in the given date range.
+2024-10-26 08:25:35,482 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,497 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,498 - yfinance - ERROR - ['VWO']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D884C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,498 - __main__ - WARNING - No data found for VWO in the given date range.
+2024-10-26 08:25:35,499 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,513 - yfinance - ERROR - Failed to get ticker 'BRK.B' reason: HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D891B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2024-10-26 08:25:35,528 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,529 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-10-26 08:25:35,529 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2024-10-26 08:25:35,530 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,544 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,545 - yfinance - ERROR - ['NEE']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D899F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,546 - __main__ - WARNING - No data found for NEE in the given date range.
+2024-10-26 08:25:35,547 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2024-10-26
+2024-10-26 08:25:35,576 - yfinance - ERROR - 
+1 Failed download:
+2024-10-26 08:25:35,576 - yfinance - ERROR - ['VNQ']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE16D8A740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+2024-10-26 08:25:35,576 - __main__ - WARNING - No data found for VNQ in the given date range.
+2024-10-26 08:25:35,577 - __main__ - ERROR - No data collected for any tickers. Please check the tickers and date ranges.
+2024-10-26 08:25:35,577 - __main__ - INFO - Data collection process completed
+2024-10-26 08:26:05,084 - __main__ - INFO - Data collection completed
+2024-10-26 08:26:05,085 - __main__ - INFO - Starting model training
+2024-10-26 08:43:00,403 - __main__ - INFO - Starting model training process
+2024-10-26 08:43:01,139 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2024-10-26 08:43:01,140 - __main__ - INFO - Model training process completed
+2024-10-26 08:45:48,575 - __main__ - INFO - Model training completed
+2024-10-26 08:45:48,575 - __main__ - INFO - Starting prediction
+2024-10-26 08:49:58,932 - __main__ - INFO - Starting prediction process
+2024-10-26 08:50:30,073 - __main__ - INFO - No action taken for AAPL based on prediction
+2024-10-26 08:50:30,087 - __main__ - INFO - No action taken for AMZN based on prediction
+2024-10-26 08:50:30,100 - __main__ - INFO - No action taken for JNJ based on prediction
+2024-10-26 08:50:30,492 - __main__ - ERROR - An error occurred: Command '['python', 'scripts/prediction.py']' returned non-zero exit status 1.
+2024-10-26 08:50:30,493 - __main__ - INFO - Investment bot completed its run.
+2024-11-03 10:12:13,350 - __main__ - INFO - Investment bot started
+2024-11-03 10:12:13,355 - __main__ - INFO - Starting data collection
+2024-11-03 10:12:15,572 - __main__ - INFO - Starting data collection process
+2024-11-03 10:12:15,574 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:16,383 - __main__ - INFO - Downloaded 212 rows for AAPL.
+2024-11-03 10:12:16,385 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:16,473 - __main__ - INFO - Downloaded 212 rows for AMZN.
+2024-11-03 10:12:16,474 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:16,745 - __main__ - INFO - Downloaded 212 rows for JNJ.
+2024-11-03 10:12:16,747 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:16,868 - __main__ - INFO - Downloaded 212 rows for VWO.
+2024-11-03 10:12:16,871 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:17,961 - yfinance - ERROR - 
+1 Failed download:
+2024-11-03 10:12:17,962 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-11-03 10:12:17,963 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2024-11-03 10:12:17,966 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:18,178 - __main__ - INFO - Downloaded 212 rows for NEE.
+2024-11-03 10:12:18,191 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2024-11-03
+2024-11-03 10:12:18,376 - __main__ - INFO - Downloaded 212 rows for VNQ.
+2024-11-03 10:12:18,471 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2024-11-03 10:12:18,543 - __main__ - INFO - Data collection process completed
+2024-11-03 10:12:18,814 - __main__ - INFO - Data collection completed
+2024-11-03 10:12:18,815 - __main__ - INFO - Starting model training
+2024-11-03 10:12:23,247 - __main__ - INFO - Starting model training process
+2024-11-03 10:12:23,701 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2024-11-03 10:12:23,703 - __main__ - INFO - Model training process completed
+2024-11-03 10:12:23,944 - __main__ - INFO - Model training completed
+2024-11-03 10:12:23,944 - __main__ - INFO - Starting prediction
+2024-11-03 10:12:25,770 - __main__ - INFO - Starting prediction process
+2024-11-03 10:12:27,001 - __main__ - INFO - No action taken for AAPL based on prediction
+2024-11-03 10:12:27,008 - __main__ - INFO - No action taken for AMZN based on prediction
+2024-11-03 10:12:27,017 - __main__ - INFO - No action taken for JNJ based on prediction
+2024-11-03 10:12:27,762 - __main__ - INFO - Bought VWO for $25 at price 46.605
+2024-11-03 10:12:27,872 - __main__ - INFO - Bought NEE for $25 at price 77.35
+2024-11-03 10:12:27,982 - __main__ - INFO - Bought VNQ for $25 at price 93.095
+2024-11-03 10:12:27,989 - __main__ - INFO - Prediction process completed
+2024-11-03 10:12:28,201 - __main__ - INFO - Prediction completed
+2024-11-03 10:12:28,202 - __main__ - INFO - Starting rebalancing
+2024-11-03 10:12:30,302 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,401 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,500 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,604 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2024-11-03 10:12:30,698 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,808 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,904 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2024-11-03 10:12:30,909 - __main__ - INFO - Portfolio rebalancing process completed
+2024-11-03 10:12:31,036 - __main__ - INFO - Rebalancing completed
+2024-11-03 10:12:31,037 - __main__ - INFO - Investment bot completed its run.
+2024-11-04 21:30:47,185 - __main__ - INFO - Investment bot started
+2024-11-04 21:30:47,186 - __main__ - INFO - Starting data collection
+2024-11-04 21:30:51,891 - __main__ - INFO - Starting data collection process
+2024-11-04 21:30:51,895 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:57,275 - __main__ - INFO - Downloaded 212 rows for AAPL.
+2024-11-04 21:30:57,281 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:57,382 - __main__ - INFO - Downloaded 212 rows for AMZN.
+2024-11-04 21:30:57,384 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:57,616 - __main__ - INFO - Downloaded 212 rows for JNJ.
+2024-11-04 21:30:57,617 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:57,743 - __main__ - INFO - Downloaded 212 rows for VWO.
+2024-11-04 21:30:57,745 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:58,962 - yfinance - ERROR - 
+1 Failed download:
+2024-11-04 21:30:58,963 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-11-04 21:30:58,964 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2024-11-04 21:30:58,965 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:59,121 - __main__ - INFO - Downloaded 212 rows for NEE.
+2024-11-04 21:30:59,122 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2024-11-04
+2024-11-04 21:30:59,243 - __main__ - INFO - Downloaded 212 rows for VNQ.
+2024-11-04 21:30:59,262 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2024-11-04 21:30:59,262 - __main__ - INFO - Data collection process completed
+2024-11-04 21:30:59,366 - __main__ - INFO - Data collection completed
+2024-11-04 21:30:59,367 - __main__ - INFO - Starting model training
+2024-11-04 21:31:07,682 - __main__ - INFO - Starting model training process
+2024-11-04 21:31:07,992 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2024-11-04 21:31:07,993 - __main__ - INFO - Model training process completed
+2024-11-04 21:31:08,138 - __main__ - INFO - Model training completed
+2024-11-04 21:31:08,138 - __main__ - INFO - Starting prediction
+2024-11-04 21:31:09,771 - __main__ - INFO - Starting prediction process
+2024-11-04 21:31:10,727 - __main__ - INFO - No action taken for AAPL based on prediction
+2024-11-04 21:31:10,733 - __main__ - INFO - No action taken for AMZN based on prediction
+2024-11-04 21:31:10,743 - __main__ - INFO - No action taken for JNJ based on prediction
+2024-11-04 21:31:11,385 - __main__ - INFO - Bought VWO for $25 at price 46.74
+2024-11-04 21:31:11,519 - __main__ - INFO - Bought NEE for $25 at price 78.39
+2024-11-04 21:31:11,621 - __main__ - INFO - Bought VNQ for $25 at price 94.18
+2024-11-04 21:31:11,627 - __main__ - INFO - Prediction process completed
+2024-11-04 21:31:11,785 - __main__ - INFO - Prediction completed
+2024-11-04 21:31:11,786 - __main__ - INFO - Starting rebalancing
+2024-11-04 21:31:13,332 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,419 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,505 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,567 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2024-11-04 21:31:13,634 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,702 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,771 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2024-11-04 21:31:13,776 - __main__ - INFO - Portfolio rebalancing process completed
+2024-11-04 21:31:13,864 - __main__ - INFO - Rebalancing completed
+2024-11-04 21:31:13,865 - __main__ - INFO - Investment bot completed its run.
+2025-01-04 08:51:36,100 - __main__ - INFO - Investment bot started
+2025-01-04 08:51:36,107 - __main__ - INFO - Starting data collection
+2025-01-04 08:51:41,442 - __main__ - INFO - Starting data collection process
+2025-01-04 08:51:41,446 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:46,837 - __main__ - INFO - Downloaded 254 rows for AAPL.
+2025-01-04 08:51:46,837 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:46,930 - __main__ - INFO - Downloaded 254 rows for AMZN.
+2025-01-04 08:51:46,930 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:47,067 - __main__ - INFO - Downloaded 254 rows for JNJ.
+2025-01-04 08:51:47,068 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:47,191 - __main__ - INFO - Downloaded 254 rows for VWO.
+2025-01-04 08:51:47,192 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:48,282 - yfinance - ERROR - 
+1 Failed download:
+2025-01-04 08:51:48,282 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-04 08:51:48,283 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2025-01-04 08:51:48,284 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:48,515 - __main__ - INFO - Downloaded 254 rows for NEE.
+2025-01-04 08:51:48,516 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2025-01-04
+2025-01-04 08:51:48,609 - __main__ - INFO - Downloaded 254 rows for VNQ.
+2025-01-04 08:51:48,628 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2025-01-04 08:51:48,629 - __main__ - INFO - Data collection process completed
+2025-01-04 08:51:48,773 - __main__ - INFO - Data collection completed
+2025-01-04 08:51:48,774 - __main__ - INFO - Starting model training
+2025-01-04 08:51:56,793 - __main__ - INFO - Starting model training process
+2025-01-04 08:51:57,206 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2025-01-04 08:51:57,207 - __main__ - INFO - Model training process completed
+2025-01-04 08:51:57,412 - __main__ - INFO - Model training completed
+2025-01-04 08:51:57,413 - __main__ - INFO - Starting prediction
+2025-01-04 08:51:59,080 - __main__ - INFO - Starting prediction process
+2025-01-04 08:52:00,423 - __main__ - INFO - No action taken for AAPL based on prediction
+2025-01-04 08:52:00,429 - __main__ - INFO - No action taken for AMZN based on prediction
+2025-01-04 08:52:00,444 - __main__ - INFO - No action taken for JNJ based on prediction
+2025-01-04 08:52:00,966 - __main__ - INFO - Bought VWO for $25 at price 44.15
+2025-01-04 08:52:01,067 - __main__ - INFO - Bought NEE for $25 at price 72
+2025-01-04 08:52:01,154 - __main__ - INFO - Bought VNQ for $25 at price 89.44
+2025-01-04 08:52:01,159 - __main__ - INFO - Prediction process completed
+2025-01-04 08:52:01,328 - __main__ - INFO - Prediction completed
+2025-01-04 08:52:01,328 - __main__ - INFO - Starting rebalancing
+2025-01-04 08:52:02,904 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,005 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,067 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,130 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2025-01-04 08:52:03,190 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,255 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,334 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2025-01-04 08:52:03,336 - __main__ - INFO - Portfolio rebalancing process completed
+2025-01-04 08:52:03,422 - __main__ - INFO - Rebalancing completed
+2025-01-04 08:52:03,423 - __main__ - INFO - Investment bot completed its run.
+2025-01-05 07:56:01,473 - __main__ - INFO - Investment bot started
+2025-01-05 07:56:01,476 - __main__ - INFO - Starting data collection
+2025-01-05 07:56:05,738 - __main__ - INFO - Starting data collection process
+2025-01-05 07:56:05,742 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:11,025 - __main__ - INFO - Downloaded 254 rows for AAPL.
+2025-01-05 07:56:11,026 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:11,134 - __main__ - INFO - Downloaded 254 rows for AMZN.
+2025-01-05 07:56:11,135 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:11,289 - __main__ - INFO - Downloaded 254 rows for JNJ.
+2025-01-05 07:56:11,290 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:11,397 - __main__ - INFO - Downloaded 254 rows for VWO.
+2025-01-05 07:56:11,398 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:12,559 - yfinance - ERROR - 
+1 Failed download:
+2025-01-05 07:56:12,560 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-05 07:56:12,560 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2025-01-05 07:56:12,561 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:12,715 - __main__ - INFO - Downloaded 254 rows for NEE.
+2025-01-05 07:56:12,716 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2025-01-05
+2025-01-05 07:56:12,826 - __main__ - INFO - Downloaded 254 rows for VNQ.
+2025-01-05 07:56:12,853 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2025-01-05 07:56:12,854 - __main__ - INFO - Data collection process completed
+2025-01-05 07:56:12,981 - __main__ - INFO - Data collection completed
+2025-01-05 07:56:12,982 - __main__ - INFO - Starting model training
+2025-01-05 07:56:20,908 - __main__ - INFO - Starting model training process
+2025-01-05 07:56:21,519 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2025-01-05 07:56:21,521 - __main__ - INFO - Model training process completed
+2025-01-05 07:56:21,707 - __main__ - INFO - Model training completed
+2025-01-05 07:56:21,708 - __main__ - INFO - Starting prediction
+2025-01-05 07:56:23,097 - __main__ - INFO - Starting prediction process
+2025-01-05 07:56:23,906 - __main__ - INFO - No action taken for AAPL based on prediction
+2025-01-05 07:56:23,910 - __main__ - INFO - No action taken for AMZN based on prediction
+2025-01-05 07:56:23,914 - __main__ - INFO - No action taken for JNJ based on prediction
+2025-01-05 07:56:24,323 - __main__ - INFO - Bought VWO for $25 at price 44.15
+2025-01-05 07:56:24,391 - __main__ - INFO - Bought NEE for $25 at price 72
+2025-01-05 07:56:24,471 - __main__ - INFO - Bought VNQ for $25 at price 89.44
+2025-01-05 07:56:24,478 - __main__ - INFO - Prediction process completed
+2025-01-05 07:56:24,621 - __main__ - INFO - Prediction completed
+2025-01-05 07:56:24,621 - __main__ - INFO - Starting rebalancing
+2025-01-05 07:56:25,964 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,022 - __main__ - ERROR - Order for AMZN failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,199 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,258 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2025-01-05 07:56:26,491 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,628 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,689 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2025-01-05 07:56:26,692 - __main__ - INFO - Portfolio rebalancing process completed
+2025-01-05 07:56:26,760 - __main__ - INFO - Rebalancing completed
+2025-01-05 07:56:26,760 - __main__ - INFO - Investment bot completed its run.
+2025-01-23 07:58:25,108 - __main__ - INFO - Investment bot started
+2025-01-23 07:58:25,108 - __main__ - INFO - Starting data collection
+2025-01-23 07:58:34,056 - __main__ - INFO - Starting data collection process
+2025-01-23 07:58:34,056 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:42,590 - __main__ - INFO - Downloaded 265 rows for AAPL.
+2025-01-23 07:58:42,590 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:42,683 - __main__ - INFO - Downloaded 265 rows for AMZN.
+2025-01-23 07:58:42,683 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:42,905 - __main__ - INFO - Downloaded 265 rows for JNJ.
+2025-01-23 07:58:42,905 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:43,016 - __main__ - INFO - Downloaded 265 rows for VWO.
+2025-01-23 07:58:43,017 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:44,045 - yfinance - ERROR - 
+1 Failed download:
+2025-01-23 07:58:44,045 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-23 07:58:44,045 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2025-01-23 07:58:44,045 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:44,175 - __main__ - INFO - Downloaded 265 rows for NEE.
+2025-01-23 07:58:44,175 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2025-01-23
+2025-01-23 07:58:44,296 - __main__ - INFO - Downloaded 265 rows for VNQ.
+2025-01-23 07:58:44,356 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2025-01-23 07:58:44,356 - __main__ - INFO - Data collection process completed
+2025-01-23 07:58:44,477 - __main__ - INFO - Data collection completed
+2025-01-23 07:58:44,477 - __main__ - INFO - Starting model training
+2025-01-23 07:58:58,499 - __main__ - INFO - Starting model training process
+2025-01-23 07:58:58,954 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2025-01-23 07:58:58,954 - __main__ - INFO - Model training process completed
+2025-01-23 07:58:59,136 - __main__ - INFO - Model training completed
+2025-01-23 07:58:59,136 - __main__ - INFO - Starting prediction
+2025-01-23 07:59:01,536 - __main__ - INFO - Starting prediction process
+2025-01-23 07:59:03,500 - __main__ - INFO - No action taken for AAPL based on prediction
+2025-01-23 07:59:03,515 - __main__ - INFO - No action taken for AMZN based on prediction
+2025-01-23 07:59:03,515 - __main__ - INFO - No action taken for JNJ based on prediction
+2025-01-23 07:59:04,384 - __main__ - INFO - Bought VWO for $25 at price 44.175
+2025-01-23 07:59:04,393 - __main__ - INFO - No action taken for NEE based on prediction
+2025-01-23 07:59:04,595 - __main__ - INFO - Bought VNQ for $25 at price 89.72
+2025-01-23 07:59:04,607 - __main__ - INFO - Prediction process completed
+2025-01-23 07:59:05,139 - __main__ - INFO - Prediction completed
+2025-01-23 07:59:05,147 - __main__ - INFO - Starting rebalancing
+2025-01-23 07:59:07,487 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2025-01-23 07:59:07,563 - __main__ - INFO - Rebalanced by selling 1.943 shares of AMZN
+2025-01-23 07:59:07,633 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2025-01-23 07:59:07,700 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2025-01-23 07:59:07,773 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2025-01-23 07:59:07,822 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2025-01-23 07:59:07,913 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2025-01-23 07:59:07,919 - __main__ - INFO - Portfolio rebalancing process completed
+2025-01-23 07:59:08,035 - __main__ - INFO - Rebalancing completed
+2025-01-23 07:59:08,035 - __main__ - INFO - Investment bot completed its run.
+2025-01-23 08:02:15,103 - __main__ - INFO - Investment bot started
+2025-01-23 08:02:15,103 - __main__ - INFO - Starting data collection
+2025-01-23 08:02:19,322 - __main__ - INFO - Starting data collection process
+2025-01-23 08:02:19,322 - __main__ - INFO - Downloading data for AAPL from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:19,900 - __main__ - INFO - Downloaded 265 rows for AAPL.
+2025-01-23 08:02:19,901 - __main__ - INFO - Downloading data for AMZN from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:19,977 - __main__ - INFO - Downloaded 265 rows for AMZN.
+2025-01-23 08:02:19,977 - __main__ - INFO - Downloading data for JNJ from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:20,128 - __main__ - INFO - Downloaded 265 rows for JNJ.
+2025-01-23 08:02:20,128 - __main__ - INFO - Downloading data for VWO from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:20,219 - __main__ - INFO - Downloaded 265 rows for VWO.
+2025-01-23 08:02:20,219 - __main__ - INFO - Downloading data for BRK.B from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:21,882 - yfinance - ERROR - 
+1 Failed download:
+2025-01-23 08:02:21,883 - yfinance - ERROR - ['BRK.B']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-23 08:02:21,883 - __main__ - WARNING - No data found for BRK.B in the given date range.
+2025-01-23 08:02:21,884 - __main__ - INFO - Downloading data for NEE from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:22,219 - __main__ - INFO - Downloaded 265 rows for NEE.
+2025-01-23 08:02:22,219 - __main__ - INFO - Downloading data for VNQ from 2024-01-01 to 2025-01-23
+2025-01-23 08:02:22,430 - __main__ - INFO - Downloaded 265 rows for VNQ.
+2025-01-23 08:02:22,455 - __main__ - INFO - Data collection complete and saved to data/historical_data.csv
+2025-01-23 08:02:22,455 - __main__ - INFO - Data collection process completed
+2025-01-23 08:02:22,566 - __main__ - INFO - Data collection completed
+2025-01-23 08:02:22,566 - __main__ - INFO - Starting model training
+2025-01-23 08:02:25,507 - __main__ - INFO - Starting model training process
+2025-01-23 08:02:25,857 - __main__ - INFO - Model training complete and saved to scripts/model.pkl
+2025-01-23 08:02:25,858 - __main__ - INFO - Model training process completed
+2025-01-23 08:02:25,995 - __main__ - INFO - Model training completed
+2025-01-23 08:02:25,995 - __main__ - INFO - Starting prediction
+2025-01-23 08:02:27,602 - __main__ - INFO - Starting prediction process
+2025-01-23 08:02:28,490 - __main__ - INFO - No action taken for AAPL based on prediction
+2025-01-23 08:02:28,496 - __main__ - INFO - No action taken for AMZN based on prediction
+2025-01-23 08:02:28,501 - __main__ - INFO - No action taken for JNJ based on prediction
+2025-01-23 08:02:28,892 - __main__ - INFO - Bought VWO for $25 at price 44.175
+2025-01-23 08:02:28,898 - __main__ - INFO - No action taken for NEE based on prediction
+2025-01-23 08:02:28,969 - __main__ - INFO - Bought VNQ for $25 at price 89.72
+2025-01-23 08:02:28,969 - __main__ - INFO - Prediction process completed
+2025-01-23 08:02:29,098 - __main__ - INFO - Prediction completed
+2025-01-23 08:02:29,098 - __main__ - INFO - Starting rebalancing
+2025-01-23 08:02:30,192 - __main__ - ERROR - Order for AAPL failed due to: fractional orders must be DAY orders
+2025-01-23 08:02:30,342 - __main__ - INFO - Rebalanced by selling 1.838 shares of AMZN
+2025-01-23 08:02:30,418 - __main__ - ERROR - Order for JNJ failed due to: fractional orders must be DAY orders
+2025-01-23 08:02:30,485 - __main__ - ERROR - Failed to sell VWO: potential wash trade detected. use complex orders
+2025-01-23 08:02:30,549 - __main__ - ERROR - Order for BRK.B failed due to: fractional orders must be DAY orders
+2025-01-23 08:02:30,599 - __main__ - ERROR - Order for NEE failed due to: fractional orders must be DAY orders
+2025-01-23 08:02:30,669 - __main__ - ERROR - Order for VNQ failed due to: fractional orders must be DAY orders
+2025-01-23 08:02:30,733 - __main__ - INFO - Portfolio rebalancing process completed
+2025-01-23 08:02:30,845 - __main__ - INFO - Rebalancing completed
+2025-01-23 08:02:30,846 - __main__ - INFO - Investment bot completed its run.
