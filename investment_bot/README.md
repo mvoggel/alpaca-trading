@@ -1,4 +1,4 @@
-OUTLINE OF TOOL:
+```OUTLINE OF TOOL:
 
 investment_bot/ 
 │
@@ -19,3 +19,4 @@ investment_bot/
 ├── main.py                   # Main script to run the entire process
 ├── requirements.txt          # Dependencies file
 └── README.md                 # Project documentation
+```
